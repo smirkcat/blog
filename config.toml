@@ -1,4 +1,4 @@
-baseURL = "https://smirkcat.com/"
+baseURL = "https://smirkcat.online/"
 languageCode = "zh-cn"
 title = "神经猫的博客 | golang程序员"
 theme = "easybook"
