@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/smirkcat/smirkcat.github.io
+[submodule "themes/easybook"]
+	path = themes/easybook
+	url = https://github.com/Y4er/hugo-theme-easybook

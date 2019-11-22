@@ -1,0 +1,80 @@
+baseURL = "https://smirkcat.com/"
+languageCode = "zh-cn"
+title = "神经猫的博客 | golang程序员"
+theme = "easybook"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+paginate = 8                            # 首页每页显示的文章数
+googleAnalytics = "UA-XXXXXXXX-X"      # UA-XXXXXXXX-X
+# 右上角菜单
+[[menu.main]]
+  name = "主页"
+  weight = 10
+  url = "/"
+[[menu.main]]
+  name = "分类&标签"
+  weight = 20
+  url = "/post/"
+[[menu.main]]
+  name = "关于"
+  weight = 30
+  url = "/about"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# site info
+[params]
+  author = "smirkcat"
+  whoami = "千里之行，始于足下."
+  avatar = "/images/avatar.jpg"
+  keywords = ["smirkcat","虚拟货币","交易所","golang"]
+  description = "golang程序员，关注各种新闻"
+
+  [params.social]
+    GitHub = "http://github.com/smirkcat"
+    Email = "mailto:smirklijie@qq.com"
+  [params.utterances]       # https://utteranc.es/
+    owner = "smirkcat"          # Your GitHub ID
+    repo = "smirkcat.online"       # The repo to store comments
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+  # Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = false
+    appId = 'appId'
+    appKey = 'appKey'
+    notify = false          # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false          # Verification code
+    avatar = 'mm' 
+    placeholder = 'some you want say. '
+    visitor = false
+  
+  changyanAppid = ""        # Changyan app id             # 畅言
+  changyanAppkey = ""       # Changyan app key
+
+  livereUID = ""            # LiveRe UID                  # 来必力
+  
+  baiduPush = true          # baidu push                  # 百度
+  baiduAnalytics = ""       # Baidu Analytics
+  baiduVerification = ""    # Baidu Verification
+  googleVerification = ""   # Google Verification         # 谷歌
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  customCSS = []
+  customJS = []
